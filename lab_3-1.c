@@ -24,5 +24,8 @@ int main(){
     else if(square1 < square2){
         printf("Площа 2 ромба більша \nS = %.2f", square2);
     }
+    else if (square1 == square2){
+        printf("Площа двух ромбів одинакова %.2f=%.2f", square1, square2);
+    }
     return 0;
 }
